@@ -1,6 +1,3 @@
 export default function RootLayout() {
-  return (
-    <html lang="ko">
-    </html>
-  );
+  return <html lang="ko"></html>;
 }
