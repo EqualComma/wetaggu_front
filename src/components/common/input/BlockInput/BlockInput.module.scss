@@ -1,0 +1,37 @@
+/* input 기본 스타일 초기화 */
+
+
+.input_box{
+    width: 60%;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+.title_box{
+    width: 100%;
+    display: flex;
+    align-items: start;
+    padding-left: 2rem;
+}
+.block_input{
+    width: 100%;
+    border: 2px solid #000000;
+    border-radius:50px;
+    padding: 0.5rem 1rem;
+}
+.title::before{
+    content: '';
+    display: inline-block;
+    width: 8px;
+    height: 8px;
+    border-radius: 50%;
+    background-color: #000;
+}
+
+.title{
+    font-size: 18px;
+    font-weight: 400;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}

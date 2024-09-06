@@ -32,26 +32,40 @@
       font-size: 22px;
     }
   }
-  .logo {
+  .main_txt {
     width: 100%;
     padding: 6vh 0;
     display: flex;
     justify-content: center;
     align-items: center;
-    font-family: "Lilita One", sans-serif;
-    font-weight: 900;
-    font-size: 50px;
+    font-family: "Noto Sans KR", sans-serif;
+    font-weight: 600;
+    font-size: 28px;
   }
 
-  .btn_box {
+  .input_box {
     width: 100%;
     display: flex;
     flex-direction: column;
     align-items: center;
-    gap: 20px;
-    margin-bottom: 10vh;
+    gap: 30px;
+    margin-top: 36px;
   }
-  button {
-    pointer-events: auto; /* 클릭 이벤트 활성화 */
+  .login_btn{
+    display: flex;
+    align-items: center;
+    margin: 5vh 0;
+    margin-bottom: 4vh;
+    flex-direction: column;
   }
+
+  .pw_found{
+    color: #808080;
+    font-size: 14px;
+    width: 100%;
+    text-align: center;
+    padding-top: 20px;
+    text-decoration: underline;
+  }
+  
 }
